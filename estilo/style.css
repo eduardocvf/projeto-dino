@@ -13,19 +13,20 @@
     margin: 0px;
     padding: 0px;
     font-size: 1em;
-    text-indent: 30px;
+    text-indent: 50px;
+    
 }
 
 html, body {
     min-height: 100vh;
     background-color: darkgrey;
     font-family: var(--font1);
+
 }
 header {
     background-color: black;
     color: white;
     text-align: center;
-    
 }
 header > h1 {
     padding-top: 50px;
@@ -35,7 +36,6 @@ header > h1 {
 }
 header > p {
     padding-bottom: 50px;
-    
 }
 header a, footer a {
     color: white;
@@ -58,8 +58,6 @@ section > p {
     padding-bottom: 2em;
     text-align: left;
     padding: 30px;
-    
-    
 }
 
 /* Estilos para telas menores (mobile) */
@@ -80,7 +78,7 @@ section.normal {
     background-color: white;
     color: black;
     margin: 0px;
-    padding: 30px;
+    padding: 5px;
 
 }
 section.imagem {
